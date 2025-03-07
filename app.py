@@ -51,4 +51,4 @@ color_map = {
 }
 
 predicted_color = color_map.get(prediction[0], 'black')
-st.markdown(f"<h2 style='text-align: center; color: {predicted_color};'>{prediction[0]}</h2>", unsafe_allow_html=True)     give source code for this delete streamlit 
+st.markdown(f"<h2 style='text-align: center; color: {predicted_color};'>{prediction[0]}</h2>", unsafe_allow_html=True)     
